@@ -1,0 +1,22 @@
+.catalogue-filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: end;
+}
+
+.catalogue-filters .form-group {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .catalogue-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalogue-filters {
+    grid-template-columns: 1fr;
+  }
+}
